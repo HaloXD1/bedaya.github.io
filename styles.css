@@ -1,0 +1,137 @@
+/* BODY */
+body{
+    color: rgb(255, 255, 255);
+     
+     background-color: rgb(0, 0, 0);
+     font-family: Arial, Helvetica, sans-serif;
+     margin: 0;
+     padding: 0;
+}
+/* FEATURES */
+
+.features{
+     background-color: white;
+     color:black;
+     padding: 20px;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+}
+.features figure{
+     margin: auto;
+     padding:7px;
+     text-align: center ;
+     width: 300px;
+     text-transform: uppercase;
+}
+.features figure img{
+     border: 1px solid gray;
+     width: 250px ;
+     border-radius: 50%;
+     box-shadow:gray 0 0 10px;
+     height:250px;
+     
+}
+/* RESPONSIVE RULES */
+
+
+/* HEADER */
+header{
+     background-color: black;
+     background-image:url("img/web2.jpg");
+     background-size:100%;
+     background-position: center;
+     height:400PX;
+     padding: 20px;
+     text-align: center;
+}
+
+Header .logo a{
+     
+     background-image:url("img/idk.jpg");
+     background-size: 90px;
+     background-repeat: none;
+     display:inline-block;
+     height:60px;
+     position: relative;
+     text-indent: -9999999px;
+     top:-20px;
+     width:100px;
+}
+header a{
+     color: white;
+     text-decoration: none;
+     text-transform: uppercase;
+     margin-top: 40px;
+}
+header .mobile {
+     display:none;
+}
+
+
+
+nav ul{
+     padding: 0;
+     margin: 0;
+     list-style: none;
+     
+}
+nav li{
+     display:inline-block;
+     margin-right: 20px;
+}
+
+/* RESPONSIVE RULES */  
+@media screen and (max-width: 530px){
+     header{
+          height:500px;
+          background-position: 0 0px; 
+     }
+    header .mobile{
+         display:inline-block;
+    }
+    header .desktop{
+         display:none;
+    }
+}
+@media screen and (min-width: 900px){
+     header{
+          height:1000px;
+     }
+}
+@media screen and (min-width: 1000px){
+     header{
+          height:1000px;
+     }
+}
+@media screen and (min-width: 1100px){
+     header{
+          height:1200px;
+     }
+}@media screen and (min-width: 1200px){
+     header{
+          height:1400px;
+     }
+}
+@media screen and (min-width: 1300px){
+     header{
+          height:100%;
+     }
+}
+@media screen and (min-width: 1700px){
+     header{
+          height:2000px;
+     }
+}
+/* FOOTER */
+
+footer{
+     background-color: black;
+     color:gray;
+     padding: 20px 20px;
+     text-align: center;
+     font-size: 15px;
+     
+}
+
+
